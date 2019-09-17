@@ -2,6 +2,7 @@ import React ,{Component} from 'react';
 import Header from './Components/Header'
 import SideBar from './Components/SideBar'
 import MainContainer from './Components/MainContainer'
+import LandingPageCard from './Components/LandingPageCard';
 
 
 class App extends Component{
@@ -10,7 +11,9 @@ class App extends Component{
       <div>
       <Header />
       <SideBar />
-      <MainContainer />
+      <MainContainer >
+         <LandingPageCard/>
+      </MainContainer>
 
       </div>
     );
