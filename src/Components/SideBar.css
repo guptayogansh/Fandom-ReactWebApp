@@ -1,0 +1,12 @@
+.sideBarColumn {
+    float: left;
+    width:10vw;
+    padding: 10px;
+    height: 100vh;
+    border-right: 2px solid #add8e6;
+    border-bottom: 2px solid #add8e6;
+    background:  #d3d3d3;
+    font-size: 14px;
+    text-align: center;
+  }
+  
