@@ -4,9 +4,9 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Characters from './Components/Characters';
+import Locations from './Components/Locations';
 
-ReactDOM.render(<Characters/>, document.getElementById('root'));
+ReactDOM.render(<Locations/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

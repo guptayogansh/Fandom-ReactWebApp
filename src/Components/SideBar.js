@@ -5,7 +5,7 @@ class SideBar extends Component{
     render(){
         return(
                 <div className="sideBarColumn">
-                    <p>Characters</p><br/>
+                    <p>Locations</p><br/>
                 </div>
         );
 
